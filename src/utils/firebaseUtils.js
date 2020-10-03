@@ -1,8 +1,23 @@
 import firebase from 'firebase';
 
-const prodConfig = //use your own information here
+//adicione os dados da sua aplicação no Firebase
+const prodConfig = {
+    apiKey: "***************",
+    authDomain: "***************",
+    databaseURL: "***************",
+    projectId: "***************",
+    storageBucket: "***************",
+    messagingSenderId: "***************"
+};
 
-const devConfig = //use your own information here
+const devConfig = {
+    apiKey: "***************",
+    authDomain: "***************",
+    databaseURL: "***************",
+    projectId: "***************",
+    storageBucket: "***************",
+    messagingSenderId: "***************"
+};
 
 const config = process.env.NODE_ENV === 'production'
     ? prodConfig
