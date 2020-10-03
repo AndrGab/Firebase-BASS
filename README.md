@@ -1,8 +1,9 @@
 # :jack_o_lantern: Hacktoberfest 2020 FireBase BASS
 
 <p align="center">
-<img height="150" width="auto" src="https://i.imgur.com/5RJIOwI.png" /><br>
-Aplicação para cadastro simples</p>
+<img height="150" width="auto" src="https://i.imgur.com/5RJIOwI.png" /><br></p>
+
+Vamos criar uma aplicação para um cadastro simples
 
 Baseada no artigo [Criando uma aplicação React+Firebase passo a passo](https://blog.tecsinapse.com.br/criando-uma-aplica%C3%A7%C3%A3o-react-firebase-passo-a-passo-9ebc5a8a442f)
 
@@ -11,7 +12,7 @@ O Firebase é um Baas (Backend as a Service) para aplicações Web e Mobile do G
 
 <hr>
 
-## :wrench: Passo a Passo para submeter sua contribuição:
+# :wrench: Passo a Passo para submeter sua contribuição:
 
 1. Dê um [Fork](https://github.com/AndrGab/Hacktoberfest-Firebase-BASS/fork) neste repositório.
 
@@ -26,11 +27,13 @@ O Firebase é um Baas (Backend as a Service) para aplicações Web e Mobile do G
 ...
 ```
 
-## :Tecnologias utilizadas
+# Tecnologias utilizadas
 
-Firebase
-React
-Material-UI
+-Firebase
+
+-React
+
+-Material-UI
 
 
 
