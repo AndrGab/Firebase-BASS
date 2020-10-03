@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :jack_o_lantern: Hacktoberfest 2020 FireBase BASS
 
-## Available Scripts
+<p align="center">
+<img height="150" width="auto" src="https://i.imgur.com/5RJIOwI.png" /><br>
+Aplicação para cadastro simples</p>
 
-In the project directory, you can run:
+Baseada no artigo [Criando uma aplicação React+Firebase passo a passo](https://blog.tecsinapse.com.br/criando-uma-aplica%C3%A7%C3%A3o-react-firebase-passo-a-passo-9ebc5a8a442f)
 
-### `yarn start`
+O Firebase é um Baas (Backend as a Service) para aplicações Web e Mobile do Google, foi lançado em 2004 e com o passar dos anos cresceu muito, se tornando uma ferramenta que hoje para alguns projetos é a melhor opção, devido a quantidade de serviços oferecidos por ele, além da facilidade de implementação.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<hr>
 
-### `yarn test`
+## :wrench: Passo a Passo para submeter sua contribuição:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Dê um [Fork](https://github.com/AndrGab/Hacktoberfest-Firebase-BASS/fork) neste repositório.
 
-### `yarn build`
+2. Adicione Novas funcionalidades na aplicação 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Se possível comente as primeiras linhas do arquivo:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```js
+// [SHORT DESCRIPTION HERE]
+// Author: @YourGitHubUserName
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+...
+```
 
-### `yarn eject`
+## :Tecnologias utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Firebase
+React
+Material-UI
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# :sparkles:  Hacktoberfest :sparkles:
+- [x] [Inscreva-se no evento](https://organize.mlh.io/participants/events/4256-hacktoberfest-brasil-online)
+- [x] Leia o regulamento abaixo e comece (***entre 1 e 31 de outubro de 2020***)
+- [x] [Veja dicas de projetos para contribuir](https://github.com/hacktoberfestbrasil/2020/blob/master/CONTRIBUTING.md) ou escolha você mesmo alguns projetos
+- [x] Acesse nosso [Chat](https://hacktoberfest.cloud.mattermost.com/main/channels/hackbr)
 
-## Learn More
+## [Detalhes de participação](https://hacktoberfest.digitalocean.com/details#details)
+- O Hacktoberfest está aberto a todos em nossa comunidade global. Quer você seja um contribuidor experiente ou esteja procurando projetos para contribuir pela primeira vez, sinta-se à vontade para participar.
+- As `pull requests` podem ser feitas em qualquer repositório / projeto hospedado no GitHub. Contanto que o projeto seja público e hospedado no GitHub, suas `pull requests` contarão para sua participação.
+- Você pode se inscrever a qualquer momento entre 1º de outubro e 31 de outubro. Apenas certifique-se de se inscrever no site oficial do Hacktoberfest para que suas solicitações de pull sejam contabilizadas.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## [Regras de participação](https://hacktoberfest.digitalocean.com/details#rules)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## [Padrões de qualidade](https://hacktoberfest.digitalocean.com/details#quality)
