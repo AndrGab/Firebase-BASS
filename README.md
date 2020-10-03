@@ -29,11 +29,11 @@ O Firebase é um Baas (Backend as a Service) para aplicações Web e Mobile do G
 
 # Tecnologias utilizadas
 
--Firebase
+- Firebase
 
--React
+- React
 
--Material-UI
+- Material-UI
 
 
 
