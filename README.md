@@ -1,4 +1,4 @@
-# :jack_o_lantern: Hacktoberfest 2020 FireBase BASS
+# :jack_o_lantern: Hacktoberfest 2020 FireBase
 
 <p align="center">
 <img height="150" width="auto" src="https://i.imgur.com/5RJIOwI.png" /><br></p>
