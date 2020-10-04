@@ -1,3 +1,6 @@
+// export const langs = {
+//      portugues : { company : 'Empresa', 
+
 export const urls = {
     data: { name: 'Listagem', path:'/Datatable'},
     add:  { name: 'Adicionar', path:'/Add'},
