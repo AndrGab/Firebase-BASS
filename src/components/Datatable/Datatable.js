@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, Table, TableBody, TableCell, TableHead, TableRow} from "@material-ui/core";
+import { makeStyles } from '@material-ui/core/styles';
 import FirebaseService from "../../services/FirebaseService";
 import {Link} from "react-router-dom";
 import {privateUrls} from "../../utils/urlUtils";
@@ -8,19 +9,27 @@ import EditOutlinedIcon from '@material-ui/icons/EditOutlined';
 
 export const DataTable = ({data}) => {
 
+    const useStyles = makeStyles({
+        table: {
+          minWidth: 650,
+        },
+      });
+     
+    const classes = useStyles();
+
     const remove = (id) => {
         FirebaseService.remove(id, 'fornecedor');
     };
 
     return <React.Fragment>
-       
-        <Table size="small">
+    
+        <Table className={classes.table} size="small">
             <TableHead>
                 <TableRow>
-                    <TableCell>Company name</TableCell>
-                    <TableCell>Contact</TableCell>
-                    <TableCell>Phone number</TableCell>
-                    <TableCell>Actions</TableCell>
+                    <TableCell><b>Company name</b></TableCell>
+                    <TableCell><b>Contact</b></TableCell>
+                    <TableCell><b>Phone number</b></TableCell>
+                    <TableCell></TableCell>
                 </TableRow>
             </TableHead>
             <TableBody>
@@ -45,5 +54,6 @@ export const DataTable = ({data}) => {
                 }
             </TableBody>
         </Table>
+
     </React.Fragment>
 };
