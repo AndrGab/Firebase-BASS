@@ -17,10 +17,10 @@ export const DataTable = ({data}) => {
         <Table size="small">
             <TableHead>
                 <TableRow>
-                    <TableCell>Nome da Empresa</TableCell>
-                    <TableCell>Contato</TableCell>
-                    <TableCell>Telefone</TableCell>
-                    <TableCell>Ações</TableCell>
+                    <TableCell>Company name</TableCell>
+                    <TableCell>Contact</TableCell>
+                    <TableCell>Phone number</TableCell>
+                    <TableCell>Actions</TableCell>
                 </TableRow>
             </TableHead>
             <TableBody>

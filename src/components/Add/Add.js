@@ -52,7 +52,7 @@ class Add extends Component {
     render = () => {
         return (<React.Fragment>
 
-            <Typography variant="headline" component="h2">Fornecedor</Typography>
+            <Typography variant="headline" component="h2">Provider</Typography>
             <form onSubmit={this.submit}>
                 <TextField className="input-field"
                            type="text"
@@ -81,7 +81,7 @@ class Add extends Component {
                         size="small"
                         startIcon={<SaveIcon />}
                         style={{marginTop: '20px'}}>
-                    Salvar
+                    Save
                 </Button>
             </form>
         </React.Fragment>)

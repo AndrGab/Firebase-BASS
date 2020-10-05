@@ -52,7 +52,7 @@ class Add extends Component {
     render = () => {
         return (<React.Fragment>
 
-            <Typography variant="headline" component="h2">Fornecedor</Typography>
+            <Typography variant="headline" component="h2">Provider</Typography>
             <form onSubmit={this.submit}>
                 <TextField className="input-field"
                            type="text"
