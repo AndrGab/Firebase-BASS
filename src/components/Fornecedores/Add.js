@@ -5,6 +5,9 @@ import {urls} from "../../utils/urlUtils";
 import {withRouter} from "react-router-dom";
 import SaveIcon from '@material-ui/icons/Save';
 
+// Translated some informations on input data screen
+// Author: @Eduard0x6f
+
 class Add extends Component {
 
     state = {id: null, empresa: '', contato: '', telefone: ''};
@@ -57,20 +60,20 @@ class Add extends Component {
                 <TextField className="input-field"
                            type="text"
                            value={this.state.empresa}
-                           label="Nome da Empresa"
+                           label="Company Name"
                            required
                            onChange={this.handleChange('empresa')}/>
 
                 <TextField className="input-field"
                            type="text"
-                           label="Nome do Contato"
+                           label="Contact Name"
                            value={this.state.contato}
                            required
                            onChange={this.handleChange('contato')}/>
 
                 <TextField className="input-field"
                            type="text"
-                           label="Telefone"
+                           label="Telephone"
                            value={this.state.telefone}
                            required
                            onChange={this.handleChange('telefone')}/>
